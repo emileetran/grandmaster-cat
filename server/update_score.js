@@ -1,4 +1,4 @@
-var elo = Meteor.npmRequire('elo-rank')(20);
+var elo = Meteor.npmRequire('elo-rank')(32);
 console.log(elo);
 
 Meteor.methods({

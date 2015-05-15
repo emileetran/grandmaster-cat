@@ -21,7 +21,7 @@ Meteor.startup(function() {
           Cats.insert({
             externalId: externalId,
             imageUrl: imageUrl,
-            score: 1400
+            score: 1000 + Math.floor(Math.random() * 2200)
           });
           console.log("Added cat", externalId);
         }
