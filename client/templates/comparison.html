@@ -1,0 +1,16 @@
+<template name="comparison">
+  <div class="comparison">
+    <div class="row">
+      <div class="six columns">
+        {{#with catLeft}}        
+          {{> cat}}
+        {{/with}}
+      </div>
+      <div class="six columns">
+        {{#with catRight}}        
+          {{> cat}}
+        {{/with}}
+      </div>
+    </div>
+  </div>
+</template>

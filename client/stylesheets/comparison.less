@@ -1,0 +1,44 @@
+
+
+.comparison {
+  margin-top: 0px;
+  .score {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+
+    @media only screen and (max-device-width: 450px) {
+      font-size: 4vw;
+      margin-bottom: 20px;
+  }
+  }
+  .cat {
+    padding: 0px;
+    text-align: center;
+    .img-wrapper {
+      cursor: pointer;
+      height: 400px;
+      padding: 2px;
+      background-color: white;
+
+      @media only screen and (max-device-width: 450px) {
+        padding: 1px;
+        height: 100%;
+        margin: auto;
+      } 
+    }
+    img {
+      position: relative;
+      top:  50%;
+      transform: translateY(-50%);
+      max-height: 396px;
+      max-width: 396px;
+
+      @media only screen and (max-device-width: 450px) {
+        max-height: 370px;
+        max-width: 370px;
+        height: 100%;
+        margin: auto;
+      }
+    }
+  } 
+}

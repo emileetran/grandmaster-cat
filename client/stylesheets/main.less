@@ -1,0 +1,34 @@
+@font-face {
+  font-family: bombing;
+  src: url('/fonts/bombing.ttf');
+}
+
+body {
+  background-color: #FF1493;
+  color: white;
+}
+
+h1.title {
+  font-size: 20vh;
+  text-align: center;
+  margin-top: 3vh;
+  margin-bottom: 0.5vh;
+  font-family: bombing, Impact, 'Arial Black', 'sans serif';
+
+  @media only screen and (max-device-width: 450px) {
+    font-size: 16vw;
+    margin-bottom: 3vh;
+  }
+}
+
+.instructions {
+  margin-bottom: 0.5vh;
+  text-align: center;
+  font-size: 1.5em;
+  font-style: italic;
+
+  @media only screen and (max-device-width: 450px) {
+    font-size: 4.5vw;
+    margin-bottom: 2vh;
+  }
+}
